@@ -7,15 +7,29 @@
 
 import SwiftUI
 
+struct Album: Hashable{
+    var id = UUID()
+    var name: String
+    var image: String
+    var songs: [Songs]
+}
+struct Songs: Hashable{
+    var id = UUID()
+    var name: String
+    var time: String
+}
+
 struct ContentView: View {
+    
+    var albums = [Album(name: <#String#>, image: <#String#>, songs: <#[Songs]#>)]
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView{
+            ScrollView{
+                ScrollView(.horizontal, showsIndicators: true, content: {})
+        
+                }
+            }
         }
-        .padding()
     }
 }
 
