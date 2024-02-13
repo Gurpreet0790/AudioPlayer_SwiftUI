@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92AD48582B7C12980084DA39 /* BlurEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AD48572B7C12980084DA39 /* BlurEffect.swift */; };
 		92CD32F32B782B6F0072626C /* AudioPlayer_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CD32F22B782B6F0072626C /* AudioPlayer_SwiftUIApp.swift */; };
 		92CD32F52B782B6F0072626C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CD32F42B782B6F0072626C /* ContentView.swift */; };
 		92CD32F72B782B730072626C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CD32F62B782B730072626C /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92AD48572B7C12980084DA39 /* BlurEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffect.swift; sourceTree = "<group>"; };
 		92CD32EF2B782B6F0072626C /* AudioPlayer_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayer_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CD32F22B782B6F0072626C /* AudioPlayer_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer_SwiftUIApp.swift; sourceTree = "<group>"; };
 		92CD32F42B782B6F0072626C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				92CD32F42B782B6F0072626C /* ContentView.swift */,
 				92CD32F62B782B730072626C /* Assets.xcassets */,
 				92CD32F82B782B730072626C /* Preview Content */,
+				92AD48572B7C12980084DA39 /* BlurEffect.swift */,
 			);
 			path = AudioPlayer_SwiftUI;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92AD48582B7C12980084DA39 /* BlurEffect.swift in Sources */,
 				92CD32F52B782B6F0072626C /* ContentView.swift in Sources */,
 				92CD32F32B782B6F0072626C /* AudioPlayer_SwiftUIApp.swift in Sources */,
 			);
